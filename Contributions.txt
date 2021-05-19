@@ -1,0 +1,35 @@
+﻿Team06        
+Cookbook v0.5
+4/21/21
+Contributions Document
+
+
+        Team06 began collaborating on 4/7/21 over discord in order to complete Cookbook v0.5. Using the UML, the team divided up two java classes per team member to begin working. In order to avoid conflicting merges into the team’s Github repository, team members primarily made updates to their own java classes, and any new classes, or changes made to other classes were first discussed as a team. The CookBook class containing the main was worked on by the most team members.  A relational schema diagram was created using input from each team member. Meetings occurred frequently, with each meeting ending with the team setting the next soonest meeting time that at least two team members could attend. 
+
+
+
+
+Xan - 25%
+        Authored the Recipe and Step classes. Wrote the code for creating instances for the Recipe, Step, Cuisine, Ingredient, IngredientAmount, and Chef classes in a shared text document. Added Javadoc comments to Recipe, and step, and edited the comments on Chef and User. Wrote toString() methods for Recipe, Step, and Chef.
+
+
+
+
+
+
+John - 25%
+        Authored the Review and FoodCritic java classes, and contributed to the CookBook class. John wrote code for creating instances of the FoodCritic and Review classes in a shared text document used by the team. Added single table inheritance annotations to User, Chef and FoodCritic classes. Added relationships in Cuisine. 
+
+
+
+
+
+
+Zack - 25%
+        Authored IngredientAmount, Ingredient, and Cuisine java classes. Organized group meeting times and group schedules. Java doc comments for Cuisine, IngredientAmount, and Ingredient. Gets and sets for FoodCritic, Ingredient Amount, Cuisine, and Ingredient. ToStrings for cuisine, Ingredient, IngredientAmount, and User. General formatting edits to all classes including changing underscores to camelcase and ordering the code starting with variables and constructors and ending with methods and toString.
+
+
+
+
+Newton - 25%
+Authored the User, Chef, StepID, IngredientAmountID classes. Added Javadoc comments toUser and Chef. Wrote toString() methods for User. Wrote annotations for IngredientAmount, some of Recipe, some of Ingredient, some of Review, and Step. Persisted objects in the main CookBook.

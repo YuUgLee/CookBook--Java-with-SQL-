@@ -1,0 +1,13 @@
+﻿Modeling Decisions
+
+
+Candidate Keys
+        For Users, the email address should be unique for each user. Ck for review was the description and the recipe id, since duplicated description text for the same review is unwanted in our database. Candidate key for recipes was cuisine, chef and name, since one chef should use different names for each recipe they write. 
+
+
+Inheritance 
+        A joined table inheritance strategy was chosen. Single table inheritance was ruled out, since we wanted to create tables for chefs and food critics separate from users and each other since this was as modeled in the UML. Joined table inheritance would be better for the queries we wanted to run, versus a single table for all user types. 
+
+
+Recursive Relationships
+        Bidirectional relationships were used throughout for recursive relationships. We wanted to show all of a user’s followers and/or all the users they follow. For reviews, it is important to see the version that was updated, as well as being able to show the updates to a review.

@@ -1,0 +1,20 @@
+﻿Contributions
+
+
+Team worked together on Discord voice-calls, usually with a team member sharing a screen. To avoid merge conflicts in the Java App CookBook, code was shared in txt files. Xan and Newton focused on fixing issues left over from v0.5, and creating objects, while Zack and John worked on SQL queries. John created a separate database in Datagrip to help with the writing of queries, and also research implementing SQL queries in JPA. Zack wrote most of the SQL queries. Working on fixing errors, getting SQL queries to run and other progress on the final two of the project was done in collaboration, with team members assisting each other over voice chat.
+
+
+John Bower        - 25%
+Updated inheritance strategy. Assisted in implementing SQL queries, and creating objects - shared with team members via .txt files. Relationship of Users to followers. Research JPA annotations for team use. Created initial version of menus functions. 
+
+
+Zack Hunter - 25%
+Designed and wrote the 6 sql queries for task #4. Wrote the majority for the SQL statements for task #3. Worked on general formatting of the code as well as ensured that proper java coding practices were followed. Added candidate keys when necessary. Assisted in figuring out how to run SQL queries in the Java code as well as other various research.
+
+
+Newton Bao - 25%
+Implemented all SQL Queries into JPA code of CookBook. Created function to remove Chef object. Created function to remove FoodCritic Object. Created function to update Recipe object.
+
+
+Xan Balayan - 25%
+Updated CookBook, add almost all objects. AddRecipe method created. Refactored Menu display. Refactored backbone code for most methods except removeChef. Changed attribute names to be consistent to Java programming language. Added accessors and mutators to attributes tied to relationships between classes.
